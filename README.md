@@ -36,3 +36,10 @@ Browse http://localhost:8000. To publish using the existing Vercel login: `npx v
 - Check the firm's approval of demo content, phone numbers, urgent-service wording, domain and privacy notice.
 - Inspect final stock images online for appropriate representation and correct licenses.
 - Get professional review for final POPIA and confidentiality statements.
+
+## October 2026 Maps and navigation update
+- Removed the red location-pin emoji from the top information bar on every page.
+- Added an embedded, responsive Google Maps view of **Management House, 38 Melle Street, Braamfontein** on the Contact page, alongside a directions link.
+- Map address identifies the building; the floor/unit is provided as text and is not a separately mapped Google Maps location.
+- Map loads from Google as a third-party embed; it requires internet connectivity. Google may process visitors' data (see Privacy page).
+- CSS was renamed to `assets/site-map-update.css` to prevent the old, long-cached CSS being shown after deployment.
